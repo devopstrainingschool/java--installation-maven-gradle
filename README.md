@@ -26,4 +26,20 @@ wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bi
 sudo tar xzf apache-maven-3.8.6-bin.tar.gz
 ln -s apache-maven-3.8.6 maven
 ```
-![image](https://user-images.githubusercontent.com/107158398/177541099-cdf411a1-91cf-4a30-bfae-ef87ea12fc21.png)
+## Let create a profile
+```
+vi /etc/profile.d/maven.sh
+```
+## and paste this content 
+```
+export M2_HOME=/opt/maven
+export PATH=${M2_HOME}/bin:${PATH}
+```
+## let source it
+```
+source /etc/profile.d/maven.sh
+```
+## check the maven version
+```
+mvn -version
+```
