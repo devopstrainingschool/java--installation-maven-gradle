@@ -1,5 +1,4 @@
 # java--installation-maven-gradle
-
 ## Update our server
 ``` yum run update –y
 ```
