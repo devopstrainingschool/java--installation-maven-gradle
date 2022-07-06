@@ -22,11 +22,15 @@ sudo yum install wget –y
 ## Cd into opt and download maven 3.8.6
 ``` 
 cd /opt
+```
+```
 wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
 ```
 ## Untar it
 ```
 sudo tar xzf apache-maven-3.8.6-bin.tar.gz
+```
+```
 ln -s apache-maven-3.8.6 maven
 ```
 ## Let create a profile
