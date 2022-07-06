@@ -52,6 +52,8 @@ source /etc/profile.d/maven.sh
 ```
 mvn -version
 ```
+![image](https://user-images.githubusercontent.com/107158398/177574573-ff4a7ab1-e3f7-4f13-b57e-0a11141fcc3e.png)
+
 ## Intalling git 
 ```
 sudo yum install git -y
@@ -94,4 +96,5 @@ source /etc/profile.d/gradle.sh
 ```
 gradle -version
 ```
+![image](https://user-images.githubusercontent.com/107158398/177574721-f41b1c12-7ce1-4e37-a700-ca1631f8aba3.png)
 
