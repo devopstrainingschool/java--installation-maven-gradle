@@ -16,6 +16,7 @@ java –version
 ```
 yum install wget –y
 ```
+# Maven Installation
 ## Cd into opt and download maven 3.8.6
 ``` 
 cd /opt
@@ -43,3 +44,8 @@ source /etc/profile.d/maven.sh
 ```
 mvn -version
 ```
+## Intalling git 
+```
+yum install git -y
+```
+# Gradle installation
