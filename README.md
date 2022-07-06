@@ -13,6 +13,8 @@ sudo yum install java-11-openjdk –y
 ```
 java –version
 ```
+![image](https://user-images.githubusercontent.com/107158398/177574144-c881df41-9699-4e6e-aaac-d34819a18a34.png)
+
 
 ##- Install maven:
 ```
@@ -54,6 +56,8 @@ mvn -version
 ```
 sudo yum install git -y
 ```
+![image](https://user-images.githubusercontent.com/107158398/177574346-4bd7a5f3-5048-4277-9252-57f6321abf90.png)
+
 # Gradle installation
 ## create a directory
 ```
