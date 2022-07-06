@@ -49,3 +49,42 @@ mvn -version
 yum install git -y
 ```
 # Gradle installation
+## create a directory
+```
+mkdir /opt/gradle
+```
+## Install unzip
+```
+yum install unzip -y
+```
+## Download and install gradle
+```
+sudo wget https://downloads.gradle-dn.com/distributions/gradle-7.4.2-bin.zip
+```
+```
+unzip -d /opt/gradle gradle-7.4.2-bin.zip
+```
+```
+ls /opt/gradle/gradle-7.4.2
+```
+## create a profile
+```
+vi /etc/profile.d/gradle.sh 
+```
+## and paste this: 
+```
+export PATH=$PATH:/opt/gradle/gradle-7.4.2/bin
+```
+### Save it
+## source it
+```
+source /etc/profile.d/gradle.sh
+```
+## the version of gradle
+```
+gradle -version
+```
+
+
+```
+
