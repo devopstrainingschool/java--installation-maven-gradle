@@ -85,6 +85,3 @@ source /etc/profile.d/gradle.sh
 gradle -version
 ```
 
-
-```
-
