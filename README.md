@@ -1,6 +1,9 @@
 # java--installation-maven-gradle
+
+
 ## Update our server
-``` yum run update –y
+```
+sudo yum update –y
 ```
 ##- Install Java OpenJDK:
 ```
@@ -13,7 +16,7 @@ java –version
 
 ##- Install maven:
 ```
-yum install wget –y
+sudo yum install wget –y
 ```
 # Maven Installation
 ## Cd into opt and download maven 3.8.6
@@ -45,7 +48,7 @@ mvn -version
 ```
 ## Intalling git 
 ```
-yum install git -y
+sudo yum install git -y
 ```
 # Gradle installation
 ## create a directory
@@ -54,7 +57,7 @@ mkdir /opt/gradle
 ```
 ## Install unzip
 ```
-yum install unzip -y
+sudo yum install unzip -y
 ```
 ## Download and install gradle
 ```
