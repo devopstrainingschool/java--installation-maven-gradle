@@ -9,6 +9,10 @@ sudo yum update –y
 ```
 sudo yum install java-11-openjdk –y
 ```
+## If using AWS
+```
+sudo amazon-linux-extras install java-openjdk11
+```
 ##- Check Java version:
 ```
 java –version
