@@ -25,7 +25,7 @@ java –version
 sudo yum install wget –y
 ```
 # Maven Installation
-## Cd into opt and download maven 3.8.6
+## Cd into opt and download maven 3.8.7
 ``` 
 cd /opt
 ```
@@ -38,7 +38,7 @@ wget https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bi
 sudo tar xzf apache-maven-3.8.7-bin.tar.gz
 ```
 ```
-ln -s apache-maven-3.8.6 maven
+ln -s apache-maven-3.8.7 maven
 ```
 ## Let create a profile
 ```
