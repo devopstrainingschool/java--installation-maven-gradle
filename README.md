@@ -31,6 +31,8 @@ cd /opt
 ```
 ```
 wget https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.tar.gz
+
+```
 ## Untar it
 ```
 sudo tar xzf apache-maven-3.8.7-bin.tar.gz
