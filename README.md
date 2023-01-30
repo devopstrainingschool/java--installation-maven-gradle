@@ -26,32 +26,8 @@ sudo yum install wget –y
 ```
 # Maven Installation
 ## Cd into opt and download maven 3.8.7
-``` 
-cd /opt
 ```
-```
-wget https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.tar.gz
-
-```
-## Untar it
-```
-sudo tar xzf apache-maven-3.8.7-bin.tar.gz
-```
-```
-ln -s apache-maven-3.8.7 maven
-```
-## Let create a profile
-```
-vi /etc/profile.d/maven.sh
-```
-## and paste this content 
-```
-export M2_HOME=/opt/maven
-export PATH=${M2_HOME}/bin:${PATH}
-```
-## let source it
-```
-source /etc/profile.d/maven.sh
+yum install maven -y
 ```
 ## check the maven version
 ```
